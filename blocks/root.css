@@ -1,0 +1,14 @@
+.root {
+  background-color: #2a2c2f;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 28px;
+}
+
+/* удалить перед отправкой на проверку */
+.header,
+div,
+form {
+  outline: 1px solid red;
+}

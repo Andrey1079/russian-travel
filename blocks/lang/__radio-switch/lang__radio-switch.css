@@ -1,0 +1,11 @@
+.lang__radio-switch {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(0 0 0 0);
+}
+
+.lang__radio-switch:checked ~ span {
+  border-bottom: 2px solid #fff;
+}
