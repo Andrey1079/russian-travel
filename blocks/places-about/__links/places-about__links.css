@@ -1,0 +1,10 @@
+.places-about__links {
+  grid-area: link;
+  align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+  .places-about__links {
+    margin: 0 16px;
+  }
+}

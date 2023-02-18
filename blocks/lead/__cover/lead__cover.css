@@ -1,0 +1,9 @@
+.lead__cover {
+  display: grid;
+  grid-template-rows: 14.67% 42.665% 42.57% auto;
+  grid-template-columns: 100%;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}

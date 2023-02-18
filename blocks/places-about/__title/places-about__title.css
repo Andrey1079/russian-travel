@@ -1,0 +1,28 @@
+.places-about__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  text-align: start;
+  grid-area: title;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
+
+/* styles for 768-1023 */
+@media screen and (max-width: 1023px) {
+  .places-about__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+/* styles for 320-767 */
+@media screen and (max-width: 767px) {
+  .places-about__title {
+    font-size: 32px;
+    line-height: 1.09;
+    margin: 0 0 0 16px;
+  }
+}

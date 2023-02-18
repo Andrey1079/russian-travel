@@ -1,0 +1,36 @@
+.cover {
+  max-width: 92.5%;
+  min-height: 740px;
+  display: flex;
+  background-image: url(../../images/cover-background_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
+}
+
+/* styles for 1024-1279 */
+@media screen and (max-width: 1279px) {
+  .cover {
+    max-width: 100%;
+    min-height: 640px;
+  }
+}
+
+/* styles for 768-1023 */
+@media screen and (max-width: 1023px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+/* styles for 320-767 */
+@media screen and (max-width: 767px) {
+  .cover {
+    min-height: 200px;
+  }
+} ;

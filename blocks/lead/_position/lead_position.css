@@ -1,0 +1,17 @@
+.lead_position {
+  margin: 56px auto 0 auto;
+}
+
+/* styles for 1024-1279 */
+@media screen and (max-width: 1279px) {
+  .lead_position {
+    margin: 70px auto 0 auto;
+  }
+}
+
+/* styles for 768-1023 */
+@media screen and (max-width: 1023px) {
+  .lead_position {
+    margin: 48px auto 0 auto;
+  }
+}

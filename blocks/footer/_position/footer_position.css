@@ -1,0 +1,17 @@
+.footer_position {
+  margin: 92px auto 24px auto;
+}
+
+/* styles for 768-1023 */
+@media screen and (max-width: 1023px) {
+  .footer_position {
+    margin: 90px auto 24px auto;
+  }
+}
+
+/* styles for 320-767 */
+@media screen and (max-width: 767px) {
+  .footer_position {
+    margin: 64px auto 24px 16px;
+  }
+}
