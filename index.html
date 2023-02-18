@@ -7,13 +7,40 @@
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="root">
-    <header class="header header_position">
+    <header class="header root__header">
       <img
-        src="./images/header/header__logo.png"
+        src="./images/header/header__logo.svg"
         alt="карта россии"
         class="header__logo"
       />
-      <form class="lang">
+      <ul class="header__lang">
+        <li>
+          <label class="header__switch" for="ru">
+            <input
+              class="header__radio-switch"
+              type="radio"
+              name="lang-choice"
+              id="ru"
+              value="ru"
+              checked
+            />
+            <span>Ru</span>
+          </label>
+        </li>
+        <li>
+          <label class="header__switch" for="en">
+            <input
+              class="header__radio-switch"
+              type="radio"
+              name="lang-choice"
+              id="en"
+              value="en"
+            />
+            <span>En</span>
+          </label>
+        </li>
+      </ul>
+      <!-- <form class="lang">
         <label class="lang__switch" for="ru">
           <input
             class="lang__radio-switch"
@@ -35,7 +62,7 @@
           />
           <span>En</span>
         </label>
-      </form>
+      </form> -->
     </header>
     <section class="lead lead_position">
       <h1 class="lead__title">Путешествия по России</h1>

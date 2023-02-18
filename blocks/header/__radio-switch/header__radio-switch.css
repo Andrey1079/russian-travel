@@ -1,4 +1,4 @@
-.lang__radio-switch {
+.header__radio-switch {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -8,6 +8,6 @@
   clip-path: inset(0 0 0 0);
 }
 
-.lang__radio-switch:checked ~ span {
+.header__radio-switch:checked ~ span {
   border-bottom: 2px solid #fff;
 }
