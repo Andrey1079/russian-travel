@@ -1,24 +1,6 @@
 .places {
-  width: 76.875%;
-}
-
-/* styles for 1024-1279 */
-@media screen and (max-width: 1279px) {
-  .places {
-    width: 90.625%;
-  }
-}
-
-/* styles for 768-1023 */
-@media screen and (max-width: 1023px) {
-  .places {
-    width: 93.75%;
-  }
-}
-
-/* styles for 320-767 */
-@media screen and (max-width: 767px) {
-  .places {
-    width: 100%;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }

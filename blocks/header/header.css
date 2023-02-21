@@ -1,20 +1,6 @@
 /* styles for 1280 */
 .header {
   display: flex;
-  width: calc(100% - 96px);
+  max-width: 100%;
   justify-content: space-between;
-}
-
-/* styles for 768-1023 */
-@media screen and (max-width: 1023px) {
-  .header {
-    width: calc(100vw - 48px);
-  }
-}
-
-/* styles for 320-767 */
-@media screen and (max-width: 767px) {
-  .header {
-    width: calc(100vw - 32px);
-  }
 }

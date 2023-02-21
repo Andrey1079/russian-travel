@@ -1,24 +1,24 @@
-.cover_position {
-  margin: 67px auto 0 auto;
+.root__cover {
+  margin: 67px 48px 0 48px;
 }
 
 /* styles for 1024-1279 */
 @media screen and (max-width: 1279px) {
-  .cover_position {
-    margin: 92px auto 0 auto;
+  .root__cover {
+    margin: 92px 0 0 0;
   }
 }
 
 /* styles for 768-1023 */
 @media screen and (max-width: 1023px) {
-  .cover_position {
-    margin: 90px auto 0 auto;
+  .root__cover {
+    margin-top: 87px;
   }
 }
 
 /* styles for 320-767 */
 @media screen and (max-width: 767px) {
-  .cover_position {
-    margin: 66px auto 0 auto;
+  .root__cover {
+    margin-top: 66px;
   }
 }

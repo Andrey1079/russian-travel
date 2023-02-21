@@ -1,29 +1,25 @@
-.cover {
+.root__intro {
   box-sizing: border-box;
-  display: flex;
-  position: relative;
-  max-width: calc(100%-96px);
-  min-height: 740px;
-  overflow: hidden;
+  padding: 92px 0 92px 84px;
 }
 
 /* styles for 1024-1279 */
 @media screen and (max-width: 1279px) {
-  .cover {
-    min-height: 640px;
+  .root__intro {
+    padding: 92px 0 70px 48px;
   }
 }
 
 /* styles for 768-1023 */
 @media screen and (max-width: 1023px) {
-  .cover {
-    min-height: 480px;
+  .root__intro {
+    padding: 88px 24px 88px 24px;
   }
 }
 
 /* styles for 320-767 */
 @media screen and (max-width: 767px) {
-  .cover {
-    min-height: 200px;
+  .root__intro {
+    padding: 64px 16px 64px 16px;
   }
 }

@@ -1,32 +1,13 @@
 .footer {
-  max-width: 92.5%;
-  display: grid;
-  grid-template-columns: repeat(5, max-content) 1fr;
-  justify-items: start;
-  gap: 18px;
-}
-
-/* styles for 1024-1279 */
-@media screen and (max-width: 1279px) {
-  .footer {
-    width: 90.625%;
-  }
-}
-
-/* styles for 768-1023 */
-@media screen and (max-width: 1023px) {
-  .footer {
-    width: 93.75%;
-  }
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
 }
 
 /* styles for 320-767 */
 @media screen and (max-width: 767px) {
   .footer {
-    width: 100%;
-    grid-template-columns: 1fr;
-    justify-items: start;
-    gap: 32px;
+    flex-direction: column;
   }
 
   .footer:last-child {

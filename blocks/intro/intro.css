@@ -1,18 +1,10 @@
 .intro {
-  width: 690px;
-  min-height: 429px;
+  max-width: 690px;
 }
 
 /* styles for 768-1023 */
 @media screen and (max-width: 1023px) {
   .intro {
-    width: calc(100vw * (720 / 768));
-  }
-}
-
-/* styles for 320-767px */
-@media screen and (max-width: 767px) {
-  .intro {
-    width: calc((100vw * 288) / 320);
+    width: 100%;
   }
 }

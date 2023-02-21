@@ -1,17 +1,7 @@
 .lead {
-  width: calc(100% - 296px);
-}
-
-/* styles for 1024-1279 */
-@media screen and (max-width: 1279px) {
-  .lead {
-    width: calc(100% - 96px);
-  }
-}
-
-/* styles for 320-1023 */
-@media screen and (max-width: 1023px) {
-  .lead {
-    width: 100%;
-  }
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }

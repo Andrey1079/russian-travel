@@ -3,19 +3,23 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
-  margin: 0;
+  margin: 26px 0 0 0;
   padding: 0;
 }
 
-.places-about__paragraph:nth-child(2) {
-  margin-top: 26px;
+.places-about__paragraph:first-child {
+  margin-top: 0;
 }
-
-/* styles for 320-1023 */
+/* styles for 768-1023 */
 @media screen and (max-width: 1023px) {
   .places-about__paragraph {
     font-size: 16px;
-    line-height: 1.63;
+    margin-top: 22px;
+  }
+}
+/* styles for 320-768 */
+@media screen and (max-width: 767px) {
+  .places-about__paragraph {
     padding: 0 16px;
   }
 }
