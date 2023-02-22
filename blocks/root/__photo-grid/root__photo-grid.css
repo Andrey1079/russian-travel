@@ -1,0 +1,27 @@
+.root__photo-grid {
+  margin-top: 92px;
+  padding: 0 48px;
+}
+
+/* styles for 1024-1279 */
+@media screen and (max-width: 1279px) {
+  .root__photo-grid {
+    margin-top: 70px;
+  }
+}
+
+/* styles for 768-1023 */
+@media screen and (max-width: 1023px) {
+  .root__photo-grid {
+    margin-top: 88px;
+    padding: 0 24px;
+  }
+}
+
+/* styles for 320-767 */
+@media screen and (max-width: 767px) {
+  .root__photo-grid {
+    margin-top: 64px;
+    padding: 0 16px;
+  }
+}
