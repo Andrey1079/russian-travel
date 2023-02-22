@@ -1,0 +1,20 @@
+.root__lead {
+  margin-top: 56px;
+  padding: 0 148px;
+}
+
+/* stiles for 1024-1279 */
+@media screen and (max-width: 1279px) {
+  .root__lead {
+    margin-top: 70px;
+    padding: 0 48px;
+  }
+}
+
+/* stiles for 320-1023 */
+@media screen and (max-width: 1023px) {
+  .root__lead {
+    margin-top: 48px;
+    padding: 0;
+  }
+}
