@@ -1,0 +1,26 @@
+.root__cover {
+  margin-top: 67px;
+  padding: 0 48px;
+}
+
+/* styles for 1024-1279 */
+@media screen and (max-width: 1279px) {
+  .root__cover {
+    margin-top: 92px;
+    padding: 0;
+  }
+}
+
+/* styles for 768-1023 */
+@media screen and (max-width: 1279px) {
+  .root__cover {
+    margin-top: 90px;
+  }
+}
+
+/* styles for 320-767 */
+@media screen and (max-width: 1279px) {
+  .root__cover {
+    margin-top: 66px;
+  }
+}

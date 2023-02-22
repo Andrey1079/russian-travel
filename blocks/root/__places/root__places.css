@@ -1,31 +1,30 @@
-.cover {
-  display: flex;
-  align-items: stretch;
+.root__places {
   box-sizing: border-box;
   width: 100%;
-  min-height: 740px;
-  position: relative;
-  overflow: hidden;
-  border: 1px solid red;
+  margin-top: 117px;
+  padding: 0 148px;
 }
 
 /* styles for 1024-1279 */
 @media screen and (max-width: 1279px) {
-  .cover {
-    min-height: 640px;
+  .root__places {
+    margin-top: 92px;
+    padding: 0 48px;
   }
 }
 
 /* styles for 768-1023 */
 @media screen and (max-width: 1023px) {
-  .cover {
-    min-height: 480px;
+  .root__places {
+    margin-top: 88px;
+    padding: 0 24px;
   }
 }
 
 /* styles for 320-767 */
 @media screen and (max-width: 767px) {
-  .cover {
-    min-height: 200px;
+  .root__places {
+    margin-top: 64px;
+    padding: 0;
   }
 }

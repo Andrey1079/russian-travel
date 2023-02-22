@@ -1,0 +1,10 @@
+.cover__img {
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
