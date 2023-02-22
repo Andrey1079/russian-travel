@@ -1,0 +1,20 @@
+.root__footer {
+  margin: 92px 0 24px 0;
+  padding: 0 48px;
+}
+
+/* styles for 768-1023 */
+@media screen and (max-width: 1279px) {
+  .root__footer {
+    margin-top: 88px;
+    padding: 0 24px;
+  }
+}
+
+/* styles for 320-767 */
+@media screen and (max-width: 1279px) {
+  .root__footer {
+    margin-top: 64px;
+    padding-left: 16px;
+  }
+}

@@ -1,15 +1,15 @@
-.footer {
+.footer__nav {
   box-sizing: border-box;
-  max-width: 100%;
   display: flex;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 18px;
 }
 
 /* styles for 320-767 */
 @media screen and (max-width: 767px) {
-  .footer {
+  .footer__nav {
     flex-direction: column;
-    gap: 48px;
+    gap: 32px;
   }
 }
