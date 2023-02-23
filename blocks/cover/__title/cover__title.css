@@ -4,7 +4,7 @@
   font-size: 72px;
   line-height: 1.06;
   max-width: 550px;
-  margin-top: 245px;
+  margin: 245px 0 0 0;
   z-index: 1;
   color: #fff;
 }
