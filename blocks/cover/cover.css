@@ -1,11 +1,13 @@
 .cover {
   display: flex;
-  align-items: stretch;
   box-sizing: border-box;
   width: 100%;
   min-height: 740px;
   position: relative;
-  overflow: hidden;
+  background-image: url(../../images/cover-background_1280.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
 }
 
 /* styles for 1024-1279 */

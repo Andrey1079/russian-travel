@@ -21,7 +21,6 @@
 /* styles for 320-1023 */
 @media screen and (max-width: 767px) {
   .places-about__paragraph {
-    font-size: 16px;
     padding: 0 16px;
   }
 }
