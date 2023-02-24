@@ -1,12 +1,11 @@
 .root__places {
-  margin-top: 117px;
+  margin-top: 92px;
   padding: 0 148px;
 }
 
 /* styles for 1024-1279 */
 @media screen and (max-width: 1279px) {
   .root__places {
-    margin-top: 92px;
     padding: 0 48px;
   }
 }
