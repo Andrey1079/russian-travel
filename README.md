@@ -26,4 +26,4 @@
 - Git
 
 #### Ссылка на страницу проекта:
-https://andrey1079.github.io/how-to-learn/
+https://andrey1079.github.io/russian-travel/
